@@ -1,0 +1,115 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #22223b;
+}
+
+.App {
+  text-align: center;
+}
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+  box-shadow: 0 2px 8px rgba(58,134,255,0.1);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar-brand:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffbe0b !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3a86ff;
+  font-weight: 700;
+}
+
+.card {
+  border-radius: 1rem;
+  border: none;
+  background: #fff;
+  box-shadow: 0 2px 16px rgba(58,134,255,0.08);
+}
+.card-title {
+  color: #8338ec;
+}
+
+.table {
+  background: #f8f9fa;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table thead {
+  background: #3a86ff;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0eafc;
+}
+.table-bordered th, .table-bordered td {
+  border: 1px solid #8338ec;
+}
+
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #8338ec 0%, #3a86ff 100%);
+  color: #ffbe0b;
+}
+
+a, .App-link {
+  color: #3a86ff;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #ffbe0b;
+}
+
+/* Favicon style for demonstration (not required for actual favicon) */
+link[rel="icon"] {
+  border-radius: 50%;
+}
+
+/* Modal custom style */
+.modal-content {
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px rgba(58,134,255,0.15);
+}
+
+/* Form custom style */
+.form-control:focus {
+  border-color: #3a86ff;
+  box-shadow: 0 0 0 0.2rem rgba(58,134,255,0.15);
+}
+
+/* Utility */
+.justify-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
